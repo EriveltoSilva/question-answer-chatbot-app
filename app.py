@@ -1,8 +1,13 @@
 from langchain_openai import OpenAI
 import streamlit as st
 from dotenv import load_dotenv
+from langchain.globals import set_debug
+
 
 load_dotenv()
+
+#To see debug details in question-answers set to "True"
+set_debug(False)
 
 def get_answer(question):
     llm= OpenAI(model_name="gpt-3.5-turbo-instruct")
