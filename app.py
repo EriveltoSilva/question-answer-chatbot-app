@@ -15,13 +15,13 @@ def get_answer(question):
     return answer
 
 def get_question():
-    user_question = st.text_input("You:", key="input")
+    user_question = st.text_input("Escreva sua Pergunta:", key="input")
     return user_question
 
 ## Application page title
-title = "Grande Sábio"
+title = "Everything🧠"
 st.set_page_config(page_title=title, page_icon=":robot:")
-st.header(title)
+st.header(title+" - 'Aquele que Tudo Sabe'💫")
 
 
 user_question = get_question()
