@@ -4,7 +4,7 @@ This is a simple web chatbot to answer a simples question fast and dinamicly
 # MAIN PROJECT LIBRARIES
 1. langchain
 2. streamlit
-3. openaipip install openai
+3. openai
 
 ## Running Process:
 1. Download files
