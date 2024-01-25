@@ -5,6 +5,7 @@ This is a simple web chatbot to answer a simples question fast and dinamicly
 1. langchain
 2. streamlit
 3. openai
+4. langchain-openai
 
 ## Running Process:
 1. Download files
